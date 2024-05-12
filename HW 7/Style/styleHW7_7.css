@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding: 10px;
+}
+
+h1{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+}
+.container{ 
+    width: 500px;
+    height: 1000px;
+    margin: 20px auto;
+    border: 2px solid darkred;
+    border-radius: 10px 10px 0 0;
+}
+ p, h1 {
+    margin: 16px 16px;
+    color: darkred;
+ }
+
+div1{
+    background-color: darkred;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+ .block {
+    text-align: center;
+    font-size: large;
+    color: white;
+    padding: 14px 0;
+ }
